@@ -9,4 +9,9 @@ public class BankingOutputPresenter implements BankingOutputBoundary {
         System.out.println("The new balance is" + balance);
 
     }
+
+    @Override
+    public void displayInsufficentFundMessage() {
+        System.out.println("地主家也没有余粮呀！");
+    }
 }

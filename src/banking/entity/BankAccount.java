@@ -1,6 +1,9 @@
 package banking.entity;
 
-public class BankAccount {
+import java.io.Serializable;
+
+public class BankAccount implements Serializable {
+
 
     private int accNum;
     protected int balance;
